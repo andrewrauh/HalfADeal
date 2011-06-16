@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9AA5DCE13A98F5000EC9CB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA5DCD13A98F5000EC9CB2 /* UIKit.framework */; };
+		F9AA5DD013A98F5000EC9CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA5DCF13A98F5000EC9CB2 /* Foundation.framework */; };
+		F9AA5DD213A98F5000EC9CB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA5DD113A98F5000EC9CB2 /* CoreGraphics.framework */; };
+		F9AA5DD813A98F5000EC9CB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DD613A98F5000EC9CB2 /* InfoPlist.strings */; };
+		F9AA5DDA13A98F5000EC9CB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5DD913A98F5000EC9CB2 /* main.m */; };
+		F9AA5DDE13A98F5000EC9CB2 /* HalfADealAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5DDD13A98F5000EC9CB2 /* HalfADealAppDelegate.m */; };
+		F9AA5DE013A98F5000EC9CB2 /* FirstViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DDF13A98F5000EC9CB2 /* FirstViewController.h */; };
+		F9AA5DE213A98F5000EC9CB2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5DE113A98F5000EC9CB2 /* FirstViewController.m */; };
+		F9AA5DE413A98F5000EC9CB2 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DE313A98F5000EC9CB2 /* first.png */; };
+		F9AA5DE613A98F5000EC9CB2 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DE513A98F5000EC9CB2 /* first@2x.png */; };
+		F9AA5DE813A98F5000EC9CB2 /* SecondViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DE713A98F5000EC9CB2 /* SecondViewController.h */; };
+		F9AA5DEA13A98F5000EC9CB2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5DE913A98F5000EC9CB2 /* SecondViewController.m */; };
+		F9AA5DEC13A98F5000EC9CB2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DEB13A98F5000EC9CB2 /* second.png */; };
+		F9AA5DEE13A98F5000EC9CB2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DED13A98F5000EC9CB2 /* second@2x.png */; };
+		F9AA5DF113A98F5000EC9CB2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DEF13A98F5000EC9CB2 /* FirstViewController.xib */; };
+		F9AA5DF413A98F5000EC9CB2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5DF213A98F5000EC9CB2 /* SecondViewController.xib */; };
+		F9AA5DFC13A98F5100EC9CB2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA5DFB13A98F5100EC9CB2 /* SenTestingKit.framework */; };
+		F9AA5DFD13A98F5100EC9CB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA5DCD13A98F5000EC9CB2 /* UIKit.framework */; };
+		F9AA5DFE13A98F5100EC9CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA5DCF13A98F5000EC9CB2 /* Foundation.framework */; };
+		F9AA5DFF13A98F5100EC9CB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA5DD113A98F5000EC9CB2 /* CoreGraphics.framework */; };
+		F9AA5E0713A98F5100EC9CB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5E0513A98F5100EC9CB2 /* InfoPlist.strings */; };
+		F9AA5E0913A98F5100EC9CB2 /* HalfADealTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5E0813A98F5100EC9CB2 /* HalfADealTests.h */; };
+		F9AA5E0B13A98F5100EC9CB2 /* HalfADealTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5E0A13A98F5100EC9CB2 /* HalfADealTests.m */; };
+		F9AA5E1713A98FF900EC9CB2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5E1513A98FF900EC9CB2 /* ThirdViewController.m */; };
+		F9AA5E1813A98FF900EC9CB2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5E1613A98FF900EC9CB2 /* ThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9AA5E0013A98F5100EC9CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9AA5DC013A98F4F00EC9CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9AA5DC813A98F5000EC9CB2;
+			remoteInfo = HalfADeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9AA5DC913A98F5000EC9CB2 /* HalfADeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfADeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AA5DCD13A98F5000EC9CB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9AA5DCF13A98F5000EC9CB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9AA5DD113A98F5000EC9CB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9AA5DD513A98F5000EC9CB2 /* HalfADeal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HalfADeal-Info.plist"; sourceTree = "<group>"; };
+		F9AA5DD713A98F5000EC9CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9AA5DD913A98F5000EC9CB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9AA5DDB13A98F5000EC9CB2 /* HalfADeal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HalfADeal-Prefix.pch"; sourceTree = "<group>"; };
+		F9AA5DDC13A98F5000EC9CB2 /* HalfADealAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalfADealAppDelegate.h; sourceTree = "<group>"; };
+		F9AA5DDD13A98F5000EC9CB2 /* HalfADealAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalfADealAppDelegate.m; sourceTree = "<group>"; };
+		F9AA5DDF13A98F5000EC9CB2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F9AA5DE113A98F5000EC9CB2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F9AA5DE313A98F5000EC9CB2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F9AA5DE513A98F5000EC9CB2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F9AA5DE713A98F5000EC9CB2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F9AA5DE913A98F5000EC9CB2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F9AA5DEB13A98F5000EC9CB2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		F9AA5DED13A98F5000EC9CB2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F9AA5DF013A98F5000EC9CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		F9AA5DF313A98F5000EC9CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		F9AA5DFA13A98F5100EC9CB2 /* HalfADealTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalfADealTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AA5DFB13A98F5100EC9CB2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F9AA5E0413A98F5100EC9CB2 /* HalfADealTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HalfADealTests-Info.plist"; sourceTree = "<group>"; };
+		F9AA5E0613A98F5100EC9CB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9AA5E0813A98F5100EC9CB2 /* HalfADealTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalfADealTests.h; sourceTree = "<group>"; };
+		F9AA5E0A13A98F5100EC9CB2 /* HalfADealTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalfADealTests.m; sourceTree = "<group>"; };
+		F9AA5E1413A98FF900EC9CB2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F9AA5E1513A98FF900EC9CB2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F9AA5E1613A98FF900EC9CB2 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9AA5DC613A98F5000EC9CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA5DCE13A98F5000EC9CB2 /* UIKit.framework in Frameworks */,
+				F9AA5DD013A98F5000EC9CB2 /* Foundation.framework in Frameworks */,
+				F9AA5DD213A98F5000EC9CB2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AA5DF613A98F5100EC9CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA5DFC13A98F5100EC9CB2 /* SenTestingKit.framework in Frameworks */,
+				F9AA5DFD13A98F5100EC9CB2 /* UIKit.framework in Frameworks */,
+				F9AA5DFE13A98F5100EC9CB2 /* Foundation.framework in Frameworks */,
+				F9AA5DFF13A98F5100EC9CB2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9AA5DBE13A98F4F00EC9CB2 = {
+			isa = PBXGroup;
+			children = (
+				F9AA5DD313A98F5000EC9CB2 /* HalfADeal */,
+				F9AA5E0213A98F5100EC9CB2 /* HalfADealTests */,
+				F9AA5DCC13A98F5000EC9CB2 /* Frameworks */,
+				F9AA5DCA13A98F5000EC9CB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9AA5DCA13A98F5000EC9CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9AA5DC913A98F5000EC9CB2 /* HalfADeal.app */,
+				F9AA5DFA13A98F5100EC9CB2 /* HalfADealTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9AA5DCC13A98F5000EC9CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9AA5DCD13A98F5000EC9CB2 /* UIKit.framework */,
+				F9AA5DCF13A98F5000EC9CB2 /* Foundation.framework */,
+				F9AA5DD113A98F5000EC9CB2 /* CoreGraphics.framework */,
+				F9AA5DFB13A98F5100EC9CB2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9AA5DD313A98F5000EC9CB2 /* HalfADeal */ = {
+			isa = PBXGroup;
+			children = (
+				F9AA5DDC13A98F5000EC9CB2 /* HalfADealAppDelegate.h */,
+				F9AA5DDD13A98F5000EC9CB2 /* HalfADealAppDelegate.m */,
+				F9AA5E1413A98FF900EC9CB2 /* ThirdViewController.h */,
+				F9AA5E1513A98FF900EC9CB2 /* ThirdViewController.m */,
+				F9AA5E1613A98FF900EC9CB2 /* ThirdViewController.xib */,
+				F9AA5DDF13A98F5000EC9CB2 /* FirstViewController.h */,
+				F9AA5DE113A98F5000EC9CB2 /* FirstViewController.m */,
+				F9AA5DE313A98F5000EC9CB2 /* first.png */,
+				F9AA5DE513A98F5000EC9CB2 /* first@2x.png */,
+				F9AA5DE713A98F5000EC9CB2 /* SecondViewController.h */,
+				F9AA5DE913A98F5000EC9CB2 /* SecondViewController.m */,
+				F9AA5DEB13A98F5000EC9CB2 /* second.png */,
+				F9AA5DED13A98F5000EC9CB2 /* second@2x.png */,
+				F9AA5DEF13A98F5000EC9CB2 /* FirstViewController.xib */,
+				F9AA5DF213A98F5000EC9CB2 /* SecondViewController.xib */,
+				F9AA5DD413A98F5000EC9CB2 /* Supporting Files */,
+			);
+			path = HalfADeal;
+			sourceTree = "<group>";
+		};
+		F9AA5DD413A98F5000EC9CB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9AA5DD513A98F5000EC9CB2 /* HalfADeal-Info.plist */,
+				F9AA5DD613A98F5000EC9CB2 /* InfoPlist.strings */,
+				F9AA5DD913A98F5000EC9CB2 /* main.m */,
+				F9AA5DDB13A98F5000EC9CB2 /* HalfADeal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9AA5E0213A98F5100EC9CB2 /* HalfADealTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9AA5E0813A98F5100EC9CB2 /* HalfADealTests.h */,
+				F9AA5E0A13A98F5100EC9CB2 /* HalfADealTests.m */,
+				F9AA5E0313A98F5100EC9CB2 /* Supporting Files */,
+			);
+			path = HalfADealTests;
+			sourceTree = "<group>";
+		};
+		F9AA5E0313A98F5100EC9CB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9AA5E0413A98F5100EC9CB2 /* HalfADealTests-Info.plist */,
+				F9AA5E0513A98F5100EC9CB2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9AA5DC813A98F5000EC9CB2 /* HalfADeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AA5E0E13A98F5100EC9CB2 /* Build configuration list for PBXNativeTarget "HalfADeal" */;
+			buildPhases = (
+				F9AA5DC513A98F5000EC9CB2 /* Sources */,
+				F9AA5DC613A98F5000EC9CB2 /* Frameworks */,
+				F9AA5DC713A98F5000EC9CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalfADeal;
+			productName = HalfADeal;
+			productReference = F9AA5DC913A98F5000EC9CB2 /* HalfADeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9AA5DF913A98F5100EC9CB2 /* HalfADealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AA5E1113A98F5100EC9CB2 /* Build configuration list for PBXNativeTarget "HalfADealTests" */;
+			buildPhases = (
+				F9AA5DF513A98F5100EC9CB2 /* Sources */,
+				F9AA5DF613A98F5100EC9CB2 /* Frameworks */,
+				F9AA5DF713A98F5100EC9CB2 /* Resources */,
+				F9AA5DF813A98F5100EC9CB2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9AA5E0113A98F5100EC9CB2 /* PBXTargetDependency */,
+			);
+			name = HalfADealTests;
+			productName = HalfADealTests;
+			productReference = F9AA5DFA13A98F5100EC9CB2 /* HalfADealTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9AA5DC013A98F4F00EC9CB2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F9AA5DC313A98F4F00EC9CB2 /* Build configuration list for PBXProject "HalfADeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9AA5DBE13A98F4F00EC9CB2;
+			productRefGroup = F9AA5DCA13A98F5000EC9CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9AA5DC813A98F5000EC9CB2 /* HalfADeal */,
+				F9AA5DF913A98F5100EC9CB2 /* HalfADealTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9AA5DC713A98F5000EC9CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA5DD813A98F5000EC9CB2 /* InfoPlist.strings in Resources */,
+				F9AA5DE013A98F5000EC9CB2 /* FirstViewController.h in Resources */,
+				F9AA5DE413A98F5000EC9CB2 /* first.png in Resources */,
+				F9AA5DE613A98F5000EC9CB2 /* first@2x.png in Resources */,
+				F9AA5DE813A98F5000EC9CB2 /* SecondViewController.h in Resources */,
+				F9AA5DEC13A98F5000EC9CB2 /* second.png in Resources */,
+				F9AA5DEE13A98F5000EC9CB2 /* second@2x.png in Resources */,
+				F9AA5DF113A98F5000EC9CB2 /* FirstViewController.xib in Resources */,
+				F9AA5DF413A98F5000EC9CB2 /* SecondViewController.xib in Resources */,
+				F9AA5E1813A98FF900EC9CB2 /* ThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AA5DF713A98F5100EC9CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA5E0713A98F5100EC9CB2 /* InfoPlist.strings in Resources */,
+				F9AA5E0913A98F5100EC9CB2 /* HalfADealTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9AA5DF813A98F5100EC9CB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9AA5DC513A98F5000EC9CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA5DDA13A98F5000EC9CB2 /* main.m in Sources */,
+				F9AA5DDE13A98F5000EC9CB2 /* HalfADealAppDelegate.m in Sources */,
+				F9AA5DE213A98F5000EC9CB2 /* FirstViewController.m in Sources */,
+				F9AA5DEA13A98F5000EC9CB2 /* SecondViewController.m in Sources */,
+				F9AA5E1713A98FF900EC9CB2 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AA5DF513A98F5100EC9CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA5E0B13A98F5100EC9CB2 /* HalfADealTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9AA5E0113A98F5100EC9CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9AA5DC813A98F5000EC9CB2 /* HalfADeal */;
+			targetProxy = F9AA5E0013A98F5100EC9CB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9AA5DD613A98F5000EC9CB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AA5DD713A98F5000EC9CB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9AA5DEF13A98F5000EC9CB2 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AA5DF013A98F5000EC9CB2 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		F9AA5DF213A98F5000EC9CB2 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AA5DF313A98F5000EC9CB2 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		F9AA5E0513A98F5100EC9CB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AA5E0613A98F5100EC9CB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9AA5E0C13A98F5100EC9CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9AA5E0D13A98F5100EC9CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9AA5E0F13A98F5100EC9CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfADeal/HalfADeal-Prefix.pch";
+				INFOPLIST_FILE = "HalfADeal/HalfADeal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9AA5E1013A98F5100EC9CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfADeal/HalfADeal-Prefix.pch";
+				INFOPLIST_FILE = "HalfADeal/HalfADeal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9AA5E1213A98F5100EC9CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HalfADeal.app/HalfADeal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfADeal/HalfADeal-Prefix.pch";
+				INFOPLIST_FILE = "HalfADealTests/HalfADealTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F9AA5E1313A98F5100EC9CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HalfADeal.app/HalfADeal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfADeal/HalfADeal-Prefix.pch";
+				INFOPLIST_FILE = "HalfADealTests/HalfADealTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9AA5DC313A98F4F00EC9CB2 /* Build configuration list for PBXProject "HalfADeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AA5E0C13A98F5100EC9CB2 /* Debug */,
+				F9AA5E0D13A98F5100EC9CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9AA5E0E13A98F5100EC9CB2 /* Build configuration list for PBXNativeTarget "HalfADeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AA5E0F13A98F5100EC9CB2 /* Debug */,
+				F9AA5E1013A98F5100EC9CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9AA5E1113A98F5100EC9CB2 /* Build configuration list for PBXNativeTarget "HalfADealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AA5E1213A98F5100EC9CB2 /* Debug */,
+				F9AA5E1313A98F5100EC9CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9AA5DC013A98F4F00EC9CB2 /* Project object */;
+}
