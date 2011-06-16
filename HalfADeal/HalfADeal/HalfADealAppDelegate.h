@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HalfADealAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+@interface HalfADealAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate> {
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

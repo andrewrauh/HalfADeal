@@ -32,6 +32,8 @@
 		F9AA5E0B13A98F5100EC9CB2 /* HalfADealTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5E0A13A98F5100EC9CB2 /* HalfADealTests.m */; };
 		F9AA5E1713A98FF900EC9CB2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5E1513A98FF900EC9CB2 /* ThirdViewController.m */; };
 		F9AA5E1813A98FF900EC9CB2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5E1613A98FF900EC9CB2 /* ThirdViewController.xib */; };
+		F9AA5E2413A9A40C00EC9CB2 /* CitySelectionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AA5E2213A9A40C00EC9CB2 /* CitySelectionTableView.m */; };
+		F9AA5E2513A9A40C00EC9CB2 /* CitySelectionTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AA5E2313A9A40C00EC9CB2 /* CitySelectionTableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,9 @@
 		F9AA5E1413A98FF900EC9CB2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		F9AA5E1513A98FF900EC9CB2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		F9AA5E1613A98FF900EC9CB2 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		F9AA5E2113A9A40C00EC9CB2 /* CitySelectionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectionTableView.h; sourceTree = "<group>"; };
+		F9AA5E2213A9A40C00EC9CB2 /* CitySelectionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectionTableView.m; sourceTree = "<group>"; };
+		F9AA5E2313A9A40C00EC9CB2 /* CitySelectionTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CitySelectionTableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,9 @@
 			children = (
 				F9AA5DDC13A98F5000EC9CB2 /* HalfADealAppDelegate.h */,
 				F9AA5DDD13A98F5000EC9CB2 /* HalfADealAppDelegate.m */,
+				F9AA5E2113A9A40C00EC9CB2 /* CitySelectionTableView.h */,
+				F9AA5E2213A9A40C00EC9CB2 /* CitySelectionTableView.m */,
+				F9AA5E2313A9A40C00EC9CB2 /* CitySelectionTableView.xib */,
 				F9AA5E1413A98FF900EC9CB2 /* ThirdViewController.h */,
 				F9AA5E1513A98FF900EC9CB2 /* ThirdViewController.m */,
 				F9AA5E1613A98FF900EC9CB2 /* ThirdViewController.xib */,
@@ -261,6 +269,7 @@
 				F9AA5DF113A98F5000EC9CB2 /* FirstViewController.xib in Resources */,
 				F9AA5DF413A98F5000EC9CB2 /* SecondViewController.xib in Resources */,
 				F9AA5E1813A98FF900EC9CB2 /* ThirdViewController.xib in Resources */,
+				F9AA5E2513A9A40C00EC9CB2 /* CitySelectionTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +310,7 @@
 				F9AA5DE213A98F5000EC9CB2 /* FirstViewController.m in Sources */,
 				F9AA5DEA13A98F5000EC9CB2 /* SecondViewController.m in Sources */,
 				F9AA5E1713A98FF900EC9CB2 /* ThirdViewController.m in Sources */,
+				F9AA5E2413A9A40C00EC9CB2 /* CitySelectionTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

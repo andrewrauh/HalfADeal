@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CitySelectionTableView;
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController {
+    IBOutlet CitySelectionTableView *citySelectionTableView;
+    IBOutlet UINavigationController *navigationController; 
 
+}
+
+@property (nonatomic, retain) CitySelectionTableView *citySelectionTableView;
+@property (nonatomic, retain) UINavigationController *navigationController;
+
+-(IBAction)navButtonToGoToCities:(id)sender;
 @end
